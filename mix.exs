@@ -1,9 +1,9 @@
-defmodule ServyBackup.MixProject do
+defmodule Servy.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :servy_backup,
+      app: :servy,
       version: "0.1.0",
       elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
